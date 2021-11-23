@@ -1,0 +1,195 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+   
+  }
+  
+.header{
+    position: fixed;
+    background-color:tomato;
+    overflow: hidden;
+    height: 60px;
+    font-family:Montserrat , sans-serif;
+    width: 100%;
+    z-index: 7;
+}
+.header a{
+    float: left;
+    color:black;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  .header a:hover{
+  background-color: darkcyan;
+  color: brown;
+
+}
+.header a:active{
+    background-color:blueviolet;
+    color: brown;
+  
+  }
+.end{
+  direction: rtl;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.about{
+  height: 800px;
+  background-image: url(./images/276978.jpg);
+  background-size: cover;
+  background-color: #cccccc;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.lifestyle{
+  background-color:brown;
+  height: 450px;
+  background-image: url(./images/lfs.jpg);
+  background-position: center;
+  background-size: cover;
+ 
+}
+.places{
+  background-color:antiquewhite;
+  height: 200px;
+}
+.footer{
+  background-color:#003049;
+  height: 300px;
+}
+.lifestyle{
+  display: flex;
+  flex-direction: row;
+  padding: 5px 5px ;
+  justify-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.lifestyle >div{
+  height: 90%;
+  width: 400px;
+  border-radius: 20px;
+  
+
+
+
+}
+.lifestyle >div:hover{
+opacity: 0.9;
+
+
+
+}
+.lifestyle >div:active{
+  background-color: chartreuse;
+  
+  
+  
+  }
+.lifestyle .card1{
+  background-color: rgb(9, 240, 240);
+  text-align: center;
+  
+}
+.lifestyle .card2{
+  background-color:red;
+  text-align: center;
+  
+}
+.lifestyle .card3{
+  background-color:#003049;
+  text-align: center;
+  background-position: center;
+  background-size: cover;
+
+}
+.footer{
+  text-align: center;
+  padding-top: 40px;
+
+}
+.footer img{
+  height: 40px;
+  width: 40px;
+}
+.places{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-around;
+  padding: 50px 50px;
+  
+}
+.River {
+  display: flex;
+  flex-direction: column;
+}
+.lake{
+  display: flex;
+  flex-direction: column;
+
+}
+.wildlife{
+  display: flex;
+  flex-direction: column;
+}
+.religious_places{
+  display: flex;
+  flex-direction: column;
+}
+.plan{
+  display: flex;
+  flex-direction: column;
+}
+.text h1{
+  font-size: small;
+}
+.text{
+background-color:antiquewhite ;
+padding: 10px 10px;
+ text-align: center;
+}
+#nam{
+  font-family: cursive;
+}
+#vp{
+  height: 100%;
+  width: 80% ;
+  background-color:white;
+  opacity: 0.6;
+  display: flex;
+  flex-direction: row;
+  
+}
+#sec1{
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  justify-content: center;
+  margin-top: 10%;
+}
+#sec2{
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 10%;
+  
+}
+#sec1 h1{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: x-large;
+  flex-wrap: wrap;
+}
+#sec2 img{
+  height: 30%;
+  width: 50%;
+}
