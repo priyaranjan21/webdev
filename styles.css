@@ -54,7 +54,13 @@ body {
   background-image: url(./images/lfs.jpg);
   background-position: center;
   background-size: cover;
+
  
+}
+.lifestyle h1{
+  font-size:x-large;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  
 }
 .places{
   background-color:antiquewhite;
@@ -150,6 +156,7 @@ opacity: 0.9;
 }
 .text h1{
   font-size: small;
+  font-family: 'Courier New', Courier, monospace;
 }
 .text{
 background-color:antiquewhite ;
@@ -173,15 +180,13 @@ padding: 10px 10px;
   flex-direction: column;
   width: 60%;
   justify-content: center;
-  margin-top: 10%;
 }
 #sec2{
   display: flex;
   flex-direction: column;
   width: 40%;
   justify-content: center;
-  flex-wrap: wrap;
-  padding: 10%;
+  flex-wrap:wrap;
   
 }
 #sec1 h1{
@@ -192,4 +197,50 @@ padding: 10px 10px;
 #sec2 img{
   height: 30%;
   width: 50%;
+}
+.River a{
+  text-decoration: none;
+  
+
+}
+.lake a{
+  text-decoration: none;
+  
+
+}
+.wildlife a{
+  text-decoration: none;
+  
+
+}
+.religious_places a{
+  text-decoration: none;
+  
+
+}
+.plan a{
+  text-decoration: none;
+  
+
+}
+.River >a:hover{
+
+   background-color: tomato;
+
+}
+.lake >a:hover{
+  background-color: tomato;
+
+}
+.wildlife >a:hover{
+  background-color: tomato;
+
+}
+.religious_places >a:hover{
+  background-color: tomato;
+
+}
+.plan >a:hover{
+  background-color: tomato;
+
 }
